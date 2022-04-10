@@ -1,5 +1,5 @@
-#include <studio.h>
-#include <unistd.h>
+#include <studio>
+#include <unistd>
 /**
  * main - Entry point
  *
