@@ -1,11 +1,12 @@
-#!/bin/bash
-#include<studio.h>
+#include <stdio.h>
+
 /**
- * min - Entry point
- * return: Alwas 0 (success)
- */
-int main(viod)
+  * main - Prints a text
+  *
+  * Return: Always 0 (Success)
+  */
+int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n);
+	printf("with proper grammar, but the outcome is a piece of art,\n");
 	return (0);
 }
