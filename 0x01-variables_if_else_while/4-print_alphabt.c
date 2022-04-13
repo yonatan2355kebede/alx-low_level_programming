@@ -1,19 +1,23 @@
-#include <studio>
+#include <stdio.h>
+
 /**
- * main - Entery point
- *
- *Ddiscription: print lowercase alphbet excluding e and q
- * Return:0
- */
+  * main - Prints some letters of alphabet
+  *
+  * Return: Always (Success)
+  */
 int main(void)
 {
 	char c;
-        for (c ='a';c<='z';++c)
-	{
-        if (c != 'e' && c != 'q')
-		putchar(c)
-}
-        putchar('\n';
-        return (0);
-}
 
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
+	}
+
+	putchar('\n');
+
+	return (0);
+}

@@ -1,18 +1,25 @@
-#include <studio.h>
+#include <stdio.h>
 
- /** Main - Entery point
+/**
+ * main - Prints the alphabetic in lower and upper case
  *
- *Discription: print lower and upper alphabet on the same line
- *Return:0
+ * Return: Always (Success)
  */
 int main(void)
 {
-        int n;
-        for(n=0;n<26;++n)
-                putchar('a'+n);
-	for(n=0;n<26;++n)
-		putchar('A'+n)
-                putchar("\n");
-        return (0);
-}
+	char c;
 
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		putchar(c);
+	}
+
+	for (c = 'A'; c <= 'Z'; c++)
+	{
+		putchar(c);
+	}
+
+	putchar('\n');
+
+	return (0);
+}

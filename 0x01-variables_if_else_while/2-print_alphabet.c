@@ -1,16 +1,17 @@
-#include <studio.h>
+#include <stdio.h>
 
- /** main - Entery point
+/**
+ * main - Prints the alphabetic
  *
- *Discription print the lowercase alphabet
- *Return: 0.
+ * Return: Always (Success)
  */
 int main(void)
 {
-        int c;
-	for(c=0;c<26;++c)
-		putchar('a'+c);
-            	putchar('\n');
-        return (0);
-}
+	char c;
 
+	for (c = 'a'; c <= 'z'; c++)
+		putchar(c);
+
+	putchar('\n');
+	return (0);
+}
